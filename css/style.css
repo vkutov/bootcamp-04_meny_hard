@@ -1,0 +1,43 @@
+:root {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    max-width: 2000px;
+    height: 3.5rem;
+    background: #e9e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+nav img {
+    height: 50%;
+    margin-right: auto; 
+    margin-left: 1%; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #b3aaaa;
+    margin: 1.5rem;
+
+}
+
+nav a:hover {
+    color: #222222b6;
+}
+
+nav a.login {
+    padding: .5rem 0.5rem;
+    border: 1px solid #b3aaaa;
+    border-radius: 8px;
+    margin-left: auto;
+
+}
+
+nav a.login:hover {
+    color: #222222b6;
+    border: 1px solid #222222b6;
+}
